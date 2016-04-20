@@ -50,6 +50,11 @@ alter table employee add constraint fk_empleado_pasat foreign  key (id) referenc
 
 );
 
+insert into jefe (id, name) values (1,'angel');
+insert into jefe (id, name) values (2,'manuel');
+insert into jefe (id, name) values (3,'maria');
+
+
 -- ...
 
 select * from employee,jefe where employee.id>jefe.id;
