@@ -18,7 +18,7 @@ if n%2==0:
 else:
 
 	print(True)
-	def sum(self, n):
+	def is_prime(self, n):
 					n=input('ingrese el numero para saber si es primo')
 
 		
