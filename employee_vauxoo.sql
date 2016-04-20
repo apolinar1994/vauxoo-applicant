@@ -44,5 +44,12 @@ INSERT INTO employee_hobby(id,name,description) values (3,'leer','me gusta leer 
 
 alter table employee add constraint fk_empleado_pasat foreign  key (id) references employee_hobby(id);
 
+ CREATE TABLE jefe (
+	
+	id INTEGER PRIMARY KEY, name VARCHAR(30)
+
+);
 
 -- ...
+
+select * from employee,jefe where employee.id>jefe.id;
