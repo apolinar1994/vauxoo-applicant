@@ -1,16 +1,24 @@
 """
-Your module documentation here
+calcular n numeros y que muestre en pantalla en caso de que sea primos
+imprima false sino true
 """
 
 
-class PrimeClass(object):
+class CalculatorClass(object):
     """
-    Your class documentation here
+    pedimos los datos en pantalla
     """
+n=input('ingrese el numero para saber si es primo  ')
 
-    def is_prime(self, num_int):
-        """
-        Your method documentation here
-        """
-        # your primes code here
-        return "not implement yet"  # Remove this dummy line
+if n%2==0:
+	print(False)
+	if n%3==3:
+			print(False)
+
+else:
+
+	print(True)
+	def sum(self, n):
+					n=input('ingrese el numero para saber si es primo')
+
+		
